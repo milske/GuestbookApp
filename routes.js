@@ -92,6 +92,7 @@ app.get("/guestbook", function (req, res) {
   var data = require("./guestbook.json");
 
   var results = `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <a href="/" class="link-body-emphasis p-3">Back to the homepage</a>
     <div class="container my-4">
       <h2 class="text-center mb-4">Guestbook Entries</h2>
       <table class="table table-bordered table-striped table-hover">
